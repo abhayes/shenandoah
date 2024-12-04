@@ -1,0 +1,168 @@
+<!-- RESTAURANTS AND CAFES PAGE -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Restaurants and Cafes Page">
+    <meta name="author" content="Abigail Hayes">
+    <title>Restaurants and Cafes</title>
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Shenandoah Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trails.html">Trails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hikingtips.html">Hiking Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="seasons.html">Seasons to Hike</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="amentities.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nearby Amentities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" aria-current="page" href="restaurants.html">Restaurants and Cafes</a></li>
+              <li><a class="dropdown-item" href="lodging.html">Lodging Options</a></li>
+              <li><a class="dropdown-item" href="campgrounds.html">Campgrounds</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start hero image -->
+  <div class="hero-image" id="herorestaurants">
+    <div class="hero-text">
+      <h1>Restaurants and Cafes</h1>
+      <p>Feul Up for Your Adventure</p>
+    </div>
+  </div>
+  <!-- end hero image -->
+
+<!-- start restaurants section -->
+<section id="restaurants">
+  <div class="container px-4">
+    <div class="row gx-4">
+      <div class="col-lg-12">
+        <h2 class="fw-bolder">Popular Local Dining</h2>
+        <p class="lead">There are plenty of ways to appease your appetite after a long day on the trail. With food stops located every 25 miles or so, your next bite is closer than you think - and you’ll find everything from grab 'n go snacks and carry-out meals to groceries and full-service dining.</p>
+      </div>
+
+      <div class="card" style="width: 50%;" id="skylandcard">
+        <img src="images/skyland.jpg" class="card-img-top" alt="Skyland dinning room interior">
+        <div class="card-body">
+          <h5 class="card-title">Skyland Dining Room</h5>
+          <p class="card-text">Famous for their blackberry ice cream pie and breathtaking mountain views.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cuisine: American, Farm-to-Table</li>
+          <li class="list-group-item">Price Range: $$</li>
+          <li class="list-group-item">Proximity: Located within Shenandoah National Park near the Stony Man Trailhead.</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://www.goshenandoah.com/dining/skyland/dinner-menu" class="card-link" target="_blank">Menu</a>
+        </div>
+      </div> <!-- end skyland card -->
+
+      <div class="card" style="width: 50%;" id="cirocard">
+        <img src="images/ciro.jpg" class="card-img-top" alt="Ciro's Italian Eatery outside">
+        <div class="card-body">
+          <h5 class="card-title">Ciro’s Italian Eatery</h5>
+          <p class="card-text">Offers hearty pasta dishes and pizza, perfect for carb-loading before or after a hike.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cuisine: Italian</li>
+          <li class="list-group-item">Price Range: $$</li>
+          <li class="list-group-item">Proximity: About 10 miles from the Massanutten Trail.</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://www.cirositalianeatery.com/ciros-menu/" class="card-link" target="_blank">Menu</a>
+        </div>
+      </div> <!-- end ciro card -->
+
+      <div class="card" style="width: 50%;">
+        <img src="images/jacks.jpg" class="card-img-top" alt="Jack Brown's Beer and Burger Join interior">
+        <div class="card-body">
+          <h5 class="card-title">Jack Brown’s Beer & Burger Joint</h5>
+          <p class="card-text">Known for their unique burger combinations and a large craft beer selection.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cuisine: American, Specialty Burgers</li>
+          <li class="list-group-item">Price Range: $-$$</li>
+          <li class="list-group-item">Proximity: Located in Harrisonburg, around 20 minutes from the South River Falls Trail.</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://www.jackbrownsjoint.com/menu/" class="card-link" target="_blank">Menu</a>
+        </div>
+      </div> <!-- end jack card -->
+
+      <div class="card" style="width: 50%;">
+        <img src="images/gathering.jpg" class="card-img-top" alt="Front of Gathering Grounds Patisserie and Cafe">
+        <div class="card-body">
+          <h5 class="card-title">Gathering Grounds Patisserie & Café</h5>
+          <p class="card-text">Known for freshly baked pastries, sandwiches, and a cozy atmosphere.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cuisine: Cafe, Light Fare</li>
+          <li class="list-group-item">Price Range: $</li>
+          <li class="list-group-item">Proximity: In Luray, just minutes from the entrance to Shenandoah National Park.</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://ggrounds.com/menu/" class="card-link" target="_blank">Menu</a>
+        </div>
+      </div> <!-- end gathering card -->
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+  <footer class="py-5" id="footer">
+  <div class="container px-4 text-center">
+    <h2 class="m-0">Plan your next adventure today at Shenandoah National Park!</h2>
+    <h3 class="m-0">Contact Us</h3>
+    <p class="m-0"><i class="material-icons">email</i>visitshenandoahvalley@gmail.com<br><i class="material-icons">phone</i>(541)969-0004</p>
+    <p class="m-0">For more information visit <a href="https://www.nps.gov/shen/index.htm" target="blank">shenandoahnationalpark.com</a><br>Copyright &copy; Shenandoah Valley 2022</p>
+  </div>
+</footer>
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

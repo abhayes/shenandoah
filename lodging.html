@@ -1,0 +1,243 @@
+<!-- LODGING OPTIONS PAGE -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lodging Options Page">
+    <meta name="author" content="Abigail Hayes">
+    <title>Lodging Options</title>
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Shenandoah Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trails.html">Trails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hikingtips.html">Hiking Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="seasons.html">Seasons to Hike</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="amentities.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nearby Amentities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="restaurants.html">Restaurants and Cafes</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="lodging.html">Lodging Options</a></li>
+              <li><a class="dropdown-item" href="campgrounds.html">Campgrounds</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+    <!-- start hero image -->
+  <div class="hero-image" id="herolodging">
+    <div class="hero-text">
+      <h1>Lodging Options</h1>
+      <p>Stay the Night</p>
+    </div>
+  </div>
+  <!-- end hero image -->
+
+<!-- start resort section -->
+<section id="resort">
+  <div class="container px-4">
+    <div class="row gx-4">
+      <div class="col-lg-4">
+        <h2 class="fw-bolder">Resorts and Hotels</h2>
+        <p class="lead">From breathtaking, four season resorts to historic, upscale presidential hotels, these lodging options have something for everyone.</p>
+      </div>
+
+      <div class="col-lg-8 text-center">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/george.jpg" class="d-block w-100" alt="The George Washington grand hotel exterior">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>The George Washington – a Wyndham Grand Hotel</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/pembroke.jpg" class="d-block w-100" alt="Pembroke Springs Retreat room interior">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Pembroke Springs Retreat</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/greypine.jpeg" class="d-block w-100" alt="Grey Pine Lodge entrance sign">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Grey Pine Lodge</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- end stay carousel -->
+
+        <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/buckhorn.jpg" class="d-block w-100" alt="The Buckhoen Inn and Tavern room interior">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>The Buckhorn Inn & Tavern</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/farmhouse.jpeg" class="d-block w-100" alt="Family Farmhouse Inn outside">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Family Farmhouse Inn</h5>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- start inns section -->
+<section id="inns">
+  <div class="container px-4">
+    <div class="row gx-4">
+      <div class="col-lg-4">
+        <h2 class="fw-bolder">Inns and Bed & Breakfasts</h2>
+        <p class="lead">Experience something truly unique in the beautiful Shenandoah Valley at one of our many Inns and Bed & Breakfasts. Enjoy a quiet, restful, and romantic getaway from the hustle and bustle of city life, a once in a lifetime adventure, or anything in between.</p>
+      </div>
+
+      <div class="col-lg-8 text-center">
+        <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/cavehill.jpg" class="d-block w-100" alt="Interior Cave Hill Farms Bed and Breakfast room">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Cave Hill Farms Bed and Breakfast</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/buckhorn.jpg" class="d-block w-100" alt="The Buckhoen Inn and Tavern room interior">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>The Buckhorn Inn & Tavern</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/farmhouse.jpeg" class="d-block w-100" alt="Family Farmhouse Inn outside">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Family Farmhouse Inn</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- end inns carousel -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- start cabins section -->
+<section id="cabins">
+  <div class="container px-4">
+    <div class="row gx-4">
+      <div class="col-lg-4">
+        <h2 class="fw-bolder">Cabins and Vacation Homes</h2>
+        <p class="lead">With so many cabins to rent, each offering its own unique character, you can find the perfect, temporary home-away-from-home to meet all your adventure needs. Choose a venue along the Shenandoah River for easy access to swimming, boating, and fishing, breathtaking mountain views, or something close to our many towns for the comforts of small-town living, shopping, and exploring around the downtown area.</p>
+      </div>
+
+      <div class="col-lg-8 text-center">
+        <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/frederick.png" class="d-block w-100" alt="Exterior of the Frederick House">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Frederick House</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/springvalley.jpg" class="d-block w-100" alt="Spring Valley Cottages entrance sign">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>Spring Valley Cottages</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/manor.jpg" class="d-block w-100" alt="The Manor at Hunter Ridge Estate exterior building">
+              <div class="carousel-caption-hotel d-none d-md-block">
+                <h5>The Manor at Hunter Ridge Estate</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- end cabins carousel -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<footer class="py-5" id="footer">
+  <div class="container px-4 text-center">
+    <h2 class="m-0">Plan your next adventure today at Shenandoah National Park!</h2>
+    <h3 class="m-0">Contact Us</h3>
+    <p class="m-0"><i class="material-icons">email</i>visitshenandoahvalley@gmail.com<br><i class="material-icons">phone</i>(541)969-0004</p>
+
+    <p class="m-0">For more information visit <a href="https://www.nps.gov/shen/index.htm" target="blank">shenandoahnationalpark.com</a><br>Copyright &copy; Shenandoah Valley 2022</p>
+
+  </div>
+</footer>
+
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

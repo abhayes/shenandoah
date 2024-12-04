@@ -1,0 +1,287 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+body, html {
+    height: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+footer, #mainNav {
+  background-color: rgb(245, 235, 224)!important;
+}
+
+#button {
+  background-color: transparent;
+  color: rgb(245, 235, 224);
+  border: 2px solid rgb(245, 235, 224);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button:hover {
+  background-color: rgb(245, 235, 224);
+  color: black;
+  border: 2px solid black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer h2, footer p{
+  padding-bottom: 20px;
+}
+
+#waterfalltext {
+  margin: auto;
+  background-color: rgb(164, 172, 134);
+  padding: 60px;
+}
+
+.card {
+  background-color: rgb(164, 172, 134);
+  border: 4px solid rgb(51,61,41);
+  padding: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.dropdown-menu .active {
+  background-color: rgb(51,61,41);
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/shenandoah.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#unparalleledcarousel {
+  border: 4px solid rgb(51,61,41);
+  padding: 0;
+}
+
+section, footer {
+  margin-top: 50px;
+}
+
+/* TRAILS PAGE */
+
+/* The hero image */
+#herotrail {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/trails.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.modal-content {
+  background-color: rgb(164, 172, 134);
+}
+
+.btn-primary {
+  background-color: rgb(51,61,41);
+  border: 2px solid rgb(51,61,41);
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border: 2px solid rgb(51,61,41);
+  color: rgb(51,61,41);
+}
+
+.btn-primary {
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: 2px solid rgb(51,61,41);
+  --bs-btn-active-color: rgb(51,61,41);
+}
+
+/* HIKING PAGE*/
+
+#herohiking {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/tips.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#safety {
+  background-color: rgb(245, 235, 224);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#principles {
+  background-color: rgb(51,61,41);
+  color: white;
+  margin: auto;
+  padding: 60px;
+}
+
+.accordion-header .collapsed {
+  background-color: rgb(51,61,41);
+  color: white;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(51,61,41, 0.25);
+  --bs-accordion-active-color: rgb(51,61,41);
+  --bs-accordion-active-bg: rgb(164, 172, 134);
+}
+
+/* SEASONS PAGE */
+
+#heroseasons {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/seasons.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#spring, #fall {
+  background-color: rgb(245, 235, 224);
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* RESTAURANTS PAGE */
+#herorestaurants {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/restaurants.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card .list-group-item {
+  background-color: rgb(245, 235, 224);
+}
+
+
+/* LODGING PAGE */
+
+#herolodging {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/lodging.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-caption-hotel {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+#inns{
+  background-color: rgb(245, 235, 224);
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* CAMPGROUNDS PAGE */
+#herocampgrounds {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/campgrounds.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+<!-- HIKING TIPS PAGE -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hiking Tips Page">
+    <meta name="author" content="Abigail Hayes">
+    <title>Hiking Tips</title>
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Shenandoah Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trails.html">Trails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="hikingtips.html">Hiking Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="seasons.html">Seasons to Hike</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="amentities.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nearby Amentities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="restaurants.html">Restaurants and Cafes</a></li>
+              <li><a class="dropdown-item" href="lodging.html">Lodging Options</a></li>
+              <li><a class="dropdown-item" href="campgrounds.html">Campgrounds</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+
+  <!-- start hero image -->
+  <div class="hero-image" id="herohiking">
+    <div class="hero-text">
+      <h1>Hiking Tips</h1>
+      <p>Essential Tips for a Safe and Responsible Adventure in the Shenandoah Valley</p>
+    </div>
+  </div>
+  <!-- end hero image -->
+
+  <!-- start preparation -->
+  <section id="preparation">
+    <div class="container px-4">
+      <div class="row gx-4">
+        <div class="col-lg-6">
+          <h2 class="fw-bolder">Preparation</h2>
+          
+          <!-- start preparation accordion -->
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Research Trails
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Websites: <a href="https://www.nps.gov/shen/index.htm" target="_blank">Shenandoah National Park site,</a> AllTrails App</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Pack Essentials
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Water, snacks, map/compass, sunscreen, first aid kit, flashlight.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Gear Check
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Comfortable hiking boots, weather-appropriate clothing.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Check Weather and Alerts
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The Shenandoah Valley experiences distinct seasonal weather patterns, making each season unique for hiking, so plan your hike based on your weather preferences and the experiences you're seeking.</div>
+              </div>
+            </div>
+          </div> <!-- end preparation accordion -->
+        </div>
+        <div class="col-lg-6">
+          <img src="images/gear.jpg" class="img-fluid" alt="Person hiking with a backpack">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start safety -->
+  <section id="safety">
+    <div class="container px-4 text-center">
+      <div class="row gx-4">
+        <div class="col-lg-12">
+          <h2 class="fw-bolder">Safety Tips</h2>
+        </div>      
+        <div class="col">
+          <p class="lead">Stay on marked trails</p>
+        </div>
+        <div class="col">
+          <p class="lead">Hike with a buddy</p>
+        </div>
+        <div class="col">
+          <p class="lead">Be aware of wildlife</p>
+        </div>
+        <div class="col">
+          <p class="lead">Avoid overexertion</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start leave no trace -->
+  <section id="trace">
+    <div class="container px-4">
+      <div class="row gx-4">
+        <div class="col-lg-6">
+          <img src="images/trace.jpg" class="img-fluid" alt="Leave No Trace Sign">
+        </div>
+        <div class="col-lg-6" id="principles">
+          <h2 class="fw-bolder">Leave No Trace Principles</h2>
+          <ol>
+            <li>Plan Ahead and Prepare</li>
+            <li>Travel and Camp on Durable Surfaces</li>
+            <li>Dispose of Waste Properly</li>
+            <li>Leave What You Find</li>
+            <li>Minimize Campfire Impact</li>
+            <li>Respect Wildlife</li>
+            <li>Be Considerate of Other Visitors</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="py-5" id="footer">
+  <div class="container px-4 text-center">
+    <h2 class="m-0">Plan your next adventure today at Shenandoah National Park!</h2>
+    <h3 class="m-0">Contact Us</h3>
+    <p class="m-0"><i class="material-icons">email</i>visitshenandoahvalley@gmail.com<br><i class="material-icons">phone</i>(541)969-0004</p>
+
+    <p class="m-0">For more information visit <a href="https://www.nps.gov/shen/index.htm" target="blank">shenandoahnationalpark.com</a><br>Copyright &copy; Shenandoah Valley 2022</p>
+
+  </div>
+</footer>
+
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

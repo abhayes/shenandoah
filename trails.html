@@ -1,0 +1,241 @@
+<!-- TRAILS PAGE -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trails Page">
+    <meta name="author" content="Abigail Hayes">
+    <title>Trails</title>
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Shenandoah Valley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="trails.html">Trails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hikingtips.html">Hiking Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="seasons.html">Seasons to Hike</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="amentities.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nearby Amentities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="restaurants.html">Restaurants and Cafes</a></li>
+              <li><a class="dropdown-item" href="lodging.html">Lodging Options</a></li>
+              <li><a class="dropdown-item" href="campgrounds.html">Campgrounds</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start hero image -->
+  <div class="hero-image" id="herotrail">
+    <div class="hero-text">
+      <h1>Popular Trails</h1>
+      <p>Discover the best trails of Shenandoah Valley</p>
+    </div>
+  </div>
+  <!-- end hero image -->
+
+  <section id="intro">
+    <div class="container px-4">
+      <div class="row gx-4">
+        <div class="col-lg-12">
+          <h2>Featured Trails</h2>
+          <p class="lead">The Shenandoah Valley offers trails for every type of hiker, from easy, scenic walks through wooded glades to demanding climbs up rocky summits. Whether you’re exploring peaceful streams or chasing stunning mountain views, there’s a trail to match your adventure.</p>
+        </div>
+
+        <!-- start cards with image modal -->
+
+       <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="images/oldrag.jpg" class="card-img-top" alt="Old Rag Mountain">
+            </button>
+
+            <div class="card-body">
+              <h3 class="card-title">Old Rag Mountain</h3>
+              <p class="card-text">Known for its challenging climb and stunning views.</p>
+              <h4 class="card-text">Difficulty: Hard</h4>
+              <h4 class="card-text">Distance and Duration: ~9 miles; 5-7 hours</h4>
+            </div>
+          </div> <!-- end card old rag -->
+
+          <!-- Modal old rag -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="exampleModalLabel">Old Rag Mountain</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/oldrag.jpg" class="card-img-top" alt="Old Rag Mountain">
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModal2" data-bs-toggle="modal">Next</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end old rag modal -->
+        </div>
+
+        <div class="col">
+          <div class="card"> <!-- start stony man trail -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              <img src="images/stonymantrail.jpg" class="card-img-top" alt="Stony Man Trail">
+            </button>
+            
+            <div class="card-body">
+              <h3 class="card-title">Stony Man Trail</h3>
+              <p class="card-text">Short, easy hike with beautiful views.</p>
+              <h4 class="card-text">Difficulty: Easy</h4>
+              <h4 class="card-text">Distance and Duration: 1.6 miles; ~1 hour</h4>
+            </div>
+          </div> <!-- end card stony man trail -->
+          <!-- Modal stony man -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="exampleModalLabel2">Stony Man Trail</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/stonymantrail.jpg" class="card-img-top" alt="Stony Man Trail">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-target="#exampleModal" data-bs-toggle="modal">Previous</button>
+                  <button class="btn btn-primary" data-bs-target="#exampleModal3" data-bs-toggle="modal">Next</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end stony man modal -->
+        </div>
+
+        <div class="col">
+          <div class="card"> <!-- start dark hollows card -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              <img src="images/darkhollow.jpg" class="card-img-top" alt="Dark Hollow Falls Trail">
+            </button>
+
+            <div class="card-body">
+              <h3 class="card-title">Dark Hollow Falls Trail</h3>
+              <p class="card-text">A popular trail leading to a cascading waterfall.</p>
+              <h4 class="card-text">Difficulty: Moderate</h4>
+              <h4 class="card-text">Distance and Duration: 1.4 miles; ~1-2 hours</h4>
+            </div>
+          </div>
+          <!-- Modal dark hollows -->
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="exampleModalLabel3">Dark Hollow Falls Trail</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/darkhollow.jpg" class="card-img-top" alt="Dark Hollow Falls Trail">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-target="#exampleModal2" data-bs-toggle="modal">Previous</button>
+                  <button class="btn btn-primary" data-bs-target="#exampleModal4" data-bs-toggle="modal">Next</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end dark hollows modal -->
+        </div>
+
+        <div class="col">
+          <div class="card"> <!-- start hawksbill card -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+             <img src="images/hawksbilltrail.jpg" class="card-img-top" alt="Hawksbill Summit Trail"> 
+            </button>
+
+            <div class="card-body">
+              <h3 class="card-title">Hawksbill Summit</h3>
+              <p class="card-text">The highest peak in Shenandoah National Park, offering panoramic vistas.</p>
+              <h4 class="card-text">Difficulty: Moderate</h4>
+              <h4 class="card-text">Distance and Duration: 1.5-2.9 miles; 1-3 hours</h4>
+            </div>
+          </div>
+          <!-- Modal hawksbill -->
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="exampleModalLabel4">Hawksbill Summit Trail</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/hawksbilltrail.jpg" class="card-img-top" alt="Hawksbill Summit Trail"> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-target="#exampleModal3" data-bs-toggle="modal">Previous</button>
+                  <button class="btn btn-primary" data-bs-target="modal" data-bs-toggle="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end hawksbill modal -->
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+<footer class="py-5" id="footer">
+  <div class="container px-4 text-center">
+    <h2 class="m-0">Plan your next adventure today at Shenandoah National Park!</h2>
+    <h3 class="m-0">Contact Us</h3>
+    <p class="m-0"><i class="material-icons">email</i>visitshenandoahvalley@gmail.com<br><i class="material-icons">phone</i>(541)969-0004</p>
+
+    <p class="m-0">For more information visit <a href="https://www.nps.gov/shen/index.htm" target="blank">shenandoahnationalpark.com</a><br>Copyright &copy; Shenandoah Valley 2022</p>
+
+  </div>
+</footer>
+
+
+
+
+
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>
